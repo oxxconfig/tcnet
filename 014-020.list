@@ -1,2 +1,2 @@
 ;AND,((SRC-IP-CIDR,192.168.253.14-192.168.253.20,no-resolve),(DOMAIN-KEYWORD,whatsapp))
-SRC-IP-CIDR,192.168.253.1-192.168.253.5,no-resolve,💌终端014-020 whats
+SRC-IP-CIDR,192.168.253.1-192.168.253.5,no-resolve

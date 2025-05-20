@@ -1,5 +1,5 @@
-AND,((DOMAIN-KEYWORD,whatsapp),(SRC-IP-CIDR,192.168.253.1/22,no-resolve))
-AND,((DOMAIN-KEYWORD,whatsapp),(SRC-IP-CIDR,192.168.253.2/22,no-resolve))
-AND,((DOMAIN-KEYWORD,whatsapp),(SRC-IP-CIDR,192.168.253.3/22,no-resolve))
-AND,((DOMAIN-KEYWORD,whatsapp),(SRC-IP-CIDR,192.168.253.4/22,no-resolve))
-AND,((DOMAIN-KEYWORD,whatsapp),(SRC-IP-CIDR,192.168.253.5/22,no-resolve))
+SRC-IP-CIDR,192.168.253.1/32,no-resolve
+SRC-IP-CIDR,192.168.253.2/32,no-resolve
+SRC-IP-CIDR,192.168.253.3/32,no-resolve
+SRC-IP-CIDR,192.168.253.4/32,no-resolve
+SRC-IP-CIDR,192.168.253.5/32,no-resolve

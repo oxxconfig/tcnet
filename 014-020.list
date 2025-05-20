@@ -1,7 +1,1 @@
-AND,((SRC-IP-CIDR,192.168.253.14/22,no-resolve),(DOMAIN-KEYWORD,whatsapp))
-AND,((SRC-IP-CIDR,192.168.253.15/22,no-resolve),(DOMAIN-KEYWORD,whatsapp))
-AND,((SRC-IP-CIDR,192.168.253.16/22,no-resolve),(DOMAIN-KEYWORD,whatsapp))
-AND,((SRC-IP-CIDR,192.168.253.17/22,no-resolve),(DOMAIN-KEYWORD,whatsapp))
-AND,((SRC-IP-CIDR,192.168.253.18/22,no-resolve),(DOMAIN-KEYWORD,whatsapp))
-AND,((SRC-IP-CIDR,192.168.253.19/22,no-resolve),(DOMAIN-KEYWORD,whatsapp))
-AND,((SRC-IP-CIDR,192.168.253.20/22,no-resolve),(DOMAIN-KEYWORD,whatsapp))
+AND,((SRC-IP-CIDR,192.168.253.14-192.168.253.20,no-resolve),(DOMAIN-KEYWORD,whatsapp))

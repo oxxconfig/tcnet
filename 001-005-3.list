@@ -1,0 +1,5 @@
+- AND,((SRC-IP-CIDR,192.168.253.1/22,no-resolve),(DOMAIN-KEYWORD,whatsapp)),💻终端001-005-3 whats
+- AND,((SRC-IP-CIDR,192.168.253.2/22,no-resolve),(DOMAIN-KEYWORD,whatsapp)),💻终端001-005-3 whats
+- AND,((SRC-IP-CIDR,192.168.253.3/22,no-resolve),(DOMAIN-KEYWORD,whatsapp)),💻终端001-005-3 whats
+- AND,((SRC-IP-CIDR,192.168.253.4/22,no-resolve),(DOMAIN-KEYWORD,whatsapp)),💻终端001-005-3 whats
+- AND,((SRC-IP-CIDR,192.168.253.5/22,no-resolve),(DOMAIN-KEYWORD,whatsapp)),💻终端001-005-3 whats

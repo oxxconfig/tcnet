@@ -1,1 +1,2 @@
+；AND,((SRC-IP-CIDR,192.168.253.1-192.168.253.5,no-resolve),(DOMAIN-KEYWORD,whatsapp))
 SRC-IP-CIDR,192.168.253.1-192.168.253.5,no-resolve

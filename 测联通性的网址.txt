@@ -1,11 +1,11 @@
-测联通性的网址
+测联通性的网址 https://imldy.cn/posts/99d42f85/
 
 Google	http://www.gstatic.com/generate_204
 Google	http://www.google-analytics.com/generate_204
 Google	http://www.google.com/generate_204
 Google	http://connectivitycheck.gstatic.com/generate_204
 Apple	http://captive.apple.com
-Apple	Success
+Apple	http://www.apple.com/library/test/success.html
 MicroSoft	http://www.msftconnecttest.com/connecttest.txt
 Cloudflare	http://cp.cloudflare.com/
 Firefox	http://detectportal.firefox.com/success.txt
@@ -13,4 +13,3 @@ V2ex	http://www.v2ex.com/generate_204
 小米 	http://connect.rom.miui.com/generate_204
 华为 	http://connectivitycheck.platform.hicloud.com/generate_204
 Vivo	http://wifi.vivo.com.cn/generate_204
-https://blog.csdn.net/st3pby/article/details/130782414

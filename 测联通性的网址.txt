@@ -13,3 +13,4 @@ V2ex	http://www.v2ex.com/generate_204
 小米 	http://connect.rom.miui.com/generate_204
 华为 	http://connectivitycheck.platform.hicloud.com/generate_204
 Vivo	http://wifi.vivo.com.cn/generate_204
+https://blog.csdn.net/st3pby/article/details/130782414

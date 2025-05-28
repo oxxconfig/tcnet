@@ -7,7 +7,7 @@
 # DOMAIN-SUFFIX: 4
 # IP-CIDR: 11
 # TOTAL: 17
-DOMAIN,graph.facebook.com
+DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,bintray.com
 DOMAIN-SUFFIX,whatsapp.biz
 DOMAIN-SUFFIX,whatsapp.com

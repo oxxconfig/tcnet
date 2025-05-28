@@ -42,3 +42,5 @@ DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,signalr.net
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,metademolab.com
+DOMAIN-SUFFIX,edge-chat.facebook.com
+DOMAIN-SUFFIX,web-chat-e2ee.facebook.com

@@ -3,3 +3,4 @@ SRC-IP-CIDR,192.168.253.2/32,no-resolve
 SRC-IP-CIDR,192.168.253.3/32,no-resolve
 SRC-IP-CIDR,192.168.253.4/32,no-resolve
 SRC-IP-CIDR,192.168.253.5/32,no-resolve
+SRC-IP-CIDR,192.168.253.6/32,no-resolve

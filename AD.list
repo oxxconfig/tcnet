@@ -1,7 +1,9 @@
 # 本碎片只包含常见广告关键字、广告联盟。无副作用，放心使用
 
 # 谷歌浏览器更新
-update.googleapis.com
+DOMAIN-SUFFIX,update.googleapis.com
+DOMAIN-SUFFIX,update.googleapis.cn
+DOMAIN-SUFFIX,tools.google.com
 # 广告关键词
 DOMAIN-KEYWORD,admarvel
 DOMAIN-KEYWORD,admaster

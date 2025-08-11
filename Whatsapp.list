@@ -1,9 +1,45 @@
-DOMAIN-SUFFIX,graph.facebook.com
-DOMAIN-SUFFIX,bintray.com
-DOMAIN-SUFFIX,whatsapp.biz
+# 官方域名
 DOMAIN-SUFFIX,whatsapp.com
 DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,web.whatsapp.com
+DOMAIN-SUFFIX,api.whatsapp.com
+DOMAIN-SUFFIX,push.whatsapp.net
+DOMAIN-SUFFIX,wapi.whatsapp.net
+DOMAIN-SUFFIX,staging.whatsapp.net
+DOMAIN-SUFFIX,s.whatsapp.net
+
+# 官方短链 & 跳转
+DOMAIN-SUFFIX,wa.me
+DOMAIN-SUFFIX,wa.link
+DOMAIN-SUFFIX,wa.com
+
+# WhatsApp Business & Cloud
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,whatsappbrand.com
+DOMAIN-SUFFIX,whatsapp.org
+DOMAIN-SUFFIX,whatsapp.info
+DOMAIN-SUFFIX,whatsapp.tv
+DOMAIN-SUFFIX,whatsapp.cc
+DOMAIN-SUFFIX,whatsapp.cloud
+DOMAIN-SUFFIX,whatsappcloud.com
+
+# 第三方/变种域名
+DOMAIN-SUFFIX,whatsapp-plus.info
+DOMAIN-SUFFIX,whatsapp-plus.me
+DOMAIN-SUFFIX,whatsapp-plus.net
+
+# Facebook / Meta 相关
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,connect.facebook.net
+DOMAIN-SUFFIX,graph.facebook.com
+
+# 关键字匹配
 DOMAIN-KEYWORD,whatsapp
+DOMAIN-SUFFIX,whats.new
+
+# Meta 官方已知 IP 段（no-resolve 避免 DNS 查询）
 IP-CIDR,158.85.224.160/27,no-resolve
 IP-CIDR,158.85.46.128/27,no-resolve
 IP-CIDR,158.85.5.192/27,no-resolve
@@ -15,27 +51,7 @@ IP-CIDR,208.43.122.128/27,no-resolve
 IP-CIDR,34.224.0.0/12,no-resolve
 IP-CIDR,50.22.198.204/30,no-resolve
 IP-CIDR,54.242.0.0/15,no-resolve
-DOMAIN-SUFFIX,whatsapp-plus.info
-DOMAIN-SUFFIX,whatsapp-plus.me
-DOMAIN-SUFFIX,whatsapp-plus.net
-DOMAIN-SUFFIX,whatsapp.cc
-DOMAIN-SUFFIX,whatsapp.info
-DOMAIN-SUFFIX,whatsapp.org
-DOMAIN-SUFFIX,whatsapp.tv
-DOMAIN-SUFFIX,whatsappbrand.com
-DOMAIN-SUFFIX,whatscotlandthinks.ac.uk
-DOMAIN-SUFFIX,whats.new
-DOMAIN-SUFFIX,whatsonweibo.com
-DOMAIN-SUFFIX,web.whatsapp.com
-DOMAIN-SUFFIX,api.whatsapp.com
-DOMAIN-SUFFIX,s.whatsapp.net
-DOMAIN-SUFFIX,fbcdn.net
-DOMAIN-SUFFIX,fbsbx.com
-DOMAIN-SUFFIX,connect.facebook.net
-DOMAIN-SUFFIX,facebook.com
-DOMAIN-SUFFIX,whatsappweb.com
-DOMAIN-SUFFIX,push.whatsapp.net
-DOMAIN-SUFFIX,wapi.whatsapp.net
-DOMAIN-SUFFIX,staging.whatsapp.net
-DOMAIN-SUFFIX,whatsapp.cloud
-DOMAIN-SUFFIX,whatsappcloud.com
+
+# - 正则 ^.*whats.*$ 进一步兜底
+
+DOMAIN-REGEX,^.*whats.*$

@@ -129,11 +129,6 @@ DOMAIN-SUFFIX,bulianglin.com
 DOMAIN-SUFFIX,coincola.com
 DOMAIN-SUFFIX,coincolacdn.com
 DOMAIN-SUFFIX,colaotc.com
-DOMAIN-SUFFIX,voachinese.com
-DOMAIN-SUFFIX,epochtimes.com
-DOMAIN-SUFFIX,botanwang.com
-DOMAIN-SUFFIX,rfa.org
-DOMAIN-SUFFIX,epochtimes.com
 
 IP-CIDR,8.8.8.8/32,no-resolve
 IP-CIDR,8.8.4.4/32,no-resolve
@@ -143,4 +138,5 @@ IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 IP-CIDR,142.250.0.0/16,no-resolve
+
 

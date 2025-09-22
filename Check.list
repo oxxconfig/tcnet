@@ -3,7 +3,8 @@ IP-CIDR,142.251.215.0/24,no-resolve
 DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,test-ipv6.com
 DOMAIN-SUFFIX,ipw.cn
-
+DOMAIN-SUFFIX,tagss.pro
+DOMAIN-SUFFIX,tagss.vip
 DOMAIN,speed.cloudflare.com
 DOMAIN-SUFFIX,fast.com
 DOMAIN,ichnaea-web.netflix.com
@@ -49,4 +50,5 @@ DOMAIN-SUFFIX,vultr.com
 DOMAIN-SUFFIX,ping0.cc
 DOMAIN-SUFFIX,incolumitas.com
 DOMAIN-SUFFIX,incolumitas.com
+
 DOMAIN-SUFFIX,incolumitas.com

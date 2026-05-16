@@ -5,3 +5,6 @@ DOMAIN-KEYWORD,xtop
 DOMAIN-SUFFIX,xoaruex.com
 IP-CIDR,38.132.122.164/32,no-resolve
 DOMAIN-SUFFIX,xoarupro.com
+DOMAIN-SUFFIX,privateemail.com
+# 直连
+DOMAIN-SUFFIX,share-email.com

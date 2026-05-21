@@ -1,58 +1,86 @@
-# ===== Telegram Domains =====
+# ===== 1. 进程规则 (最先匹配，单机性能最高) =====
+PROCESS-NAME,Telegram
+PROCESS-NAME,Telegram.exe
+PROCESS-NAME,TelegramDesktop.exe
+PROCESS-NAME,telegram-desktop
+PROCESS-NAME,64Gram
+PROCESS-NAME,KotatogramDesktop
+PROCESS-NAME,org.telegram.messenger
+PROCESS-NAME,org.telegram.plus
+PROCESS-NAME,org.thunderdog.challegram
+PROCESS-NAME,app.nicegram
+PROCESS-NAME,com.exteragram.messenger
+PROCESS-NAME,nekox.messenger
+PROCESS-NAME,nekox.messenger.beta
+PROCESS-NAME,tw.nekomimi.nekogram
+PROCESS-NAME,xyz.nextalone.nagram
+
+# ===== 2. 核心域名与 CDN (解决图片视频卡顿、下载失败的关键) =====
 DOMAIN,api.imem.app
 DOMAIN,api.swiftgram.app
 DOMAIN-KEYWORD,nicegram
 DOMAIN-SUFFIX,swiftgram.app
-DOMAIN-SUFFIX,cdn-telegram.org
-DOMAIN-SUFFIX,comments.app
-DOMAIN-SUFFIX,contest.com
-DOMAIN-SUFFIX,fragment.com
-DOMAIN-SUFFIX,graph.org
-DOMAIN-SUFFIX,legra.ph
-DOMAIN-SUFFIX,mbrx.app
-DOMAIN-SUFFIX,quiz.directory
-DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,lucyproxy.com
 DOMAIN-SUFFIX,t.me
-DOMAIN-SUFFIX,tapps.center
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,tg.me
+DOMAIN-SUFFIX,tg.dev
 DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,updates.tdesktop.com
 DOMAIN-SUFFIX,telega.one
 DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telegram.dog
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegram.org.ru
-DOMAIN-SUFFIX,telegram.space
-DOMAIN-SUFFIX,telegramdownload.com
-DOMAIN-SUFFIX,telesco.pe
-DOMAIN-SUFFIX,tg.dev
-DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,legra.ph
+DOMAIN-SUFFIX,graph.org
+DOMAIN-SUFFIX,stel.com
+DOMAIN-SUFFIX,contest.com
+DOMAIN-SUFFIX,quiz.directory
 DOMAIN-SUFFIX,usercontent.dev
-DOMAIN-SUFFIX,wallet.tg
 
-# ===== Telegram IPv4 (All Complete & no-resolve) =====
+# --- Telegram 官方主域名与 Web 端各节点 ---
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,telegram.org.ru
+DOMAIN-SUFFIX,web.telegram.org
+DOMAIN-SUFFIX,k.telegram.org
+DOMAIN-SUFFIX,a.telegram.org
+DOMAIN-SUFFIX,venus.web.telegram.org
+DOMAIN-SUFFIX,pluto.web.telegram.org
+DOMAIN-SUFFIX,vesta.web.telegram.org
+
+# --- 核心数据/媒体 CDN (必须保留，防止语音卡顿) ---
+DOMAIN-SUFFIX,cdn.telegram.org
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegram-cdn.com
+DOMAIN-SUFFIX,tgcdn.net
+DOMAIN-SUFFIX,tginfo.me
+DOMAIN-SUFFIX,tgstat.ru
+DOMAIN-SUFFIX,tgfile.ru
+DOMAIN-SUFFIX,telegramusercontent.com
+DOMAIN-SUFFIX,usercontent.telegram.org
+
+# ===== 3. WebApp / MiniApp / TON 生态域名 =====
+DOMAIN-SUFFIX,fragment.com
+DOMAIN-SUFFIX,tapps.center
+DOMAIN-SUFFIX,wallet.tg
+DOMAIN-SUFFIX,tgapi.one
+DOMAIN-SUFFIX,tgweb.app
+DOMAIN-SUFFIX,tgwidget.com
+DOMAIN-SUFFIX,ton.org
+DOMAIN-SUFFIX,tonkeeper.com
+DOMAIN-SUFFIX,tonhub.com
+DOMAIN-SUFFIX,tonapi.io
+
+# ===== 4. 官方 IPv4 骨干网段
 IP-CIDR,5.28.192.0/18,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve
-IP-CIDR,91.108.4.0/22,no-resolve
-IP-CIDR,91.108.8.0/22,no-resolve
-IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,95.161.64.0/20,no-resolve
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
-IP-CIDR,149.154.164.0/22,no-resolve
 IP-CIDR,185.76.36.0/22,no-resolve
 
-# ===== Telegram IPv6 =====
+# ===== 5. 官方 IPv6 骨干网段 (ASN 保守范围) =====
 IP-CIDR6,2001:67c:4e8::/48,no-resolve
 IP-CIDR6,2001:b28:f23c::/47,no-resolve
 IP-CIDR6,2001:b28:f23f::/48,no-resolve
-IP-CIDR6,2a0a:f280::/29,no-resolve
-
-# ===== Telegram Processes =====
-PROCESS-NAME,Telegram
-PROCESS-NAME,Telegram.exe
-PROCESS-NAME,telegram-desktop
-PROCESS-NAME,org.telegram.messenger
-PROCESS-NAME,nekox.messenger
-PROCESS-NAME,tw.nekomimi.nekogram
-PROCESS-NAME,xyz.nextalone.nagram
+IP-CIDR6,2a0a:f280::/32,no-resolve
